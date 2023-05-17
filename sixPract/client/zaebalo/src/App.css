@@ -1,0 +1,120 @@
+/* Styling for the card container */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  max-width: 465px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+/* Styling for the buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* Styling for the different button types */
+.btn-primary {
+  background-color: #4CAF50;
+}
+.btn-secondary {
+  background-color: #008CBA;
+}
+.btn-success {
+  background-color: #f44336;
+}
+.btn-danger {
+  background-color: #555555;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#input-field {
+  padding: 10px;
+  margin-right: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+}
+
+#submit-btn {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+#danger-btn {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+#logout-btn {
+  padding: 10px 20px;
+  background-color: #08376e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: static;
+  font-family: 'Michroma', sans-serif;
+  font-size: 35px;
+  line-height: 40px;
+  color: #455de6;
+}
+
+
